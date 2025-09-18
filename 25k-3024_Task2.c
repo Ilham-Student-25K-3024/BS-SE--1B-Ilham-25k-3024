@@ -1,17 +1,15 @@
-#include <stdio.h>
-#include <conio.h>
+#include<stdio.h>
 int main(){
-	//Task2
-	int firstnumber,secondnumber;
-	printf("Enter first number:");
-	scanf("%d",&firstnumber);
-	printf("Enter Second number:");
-	scanf("%d",&secondnumber);
-	if (firstnumber>secondnumber){
-		printf("\n%d is greater than %d",firstnumber,secondnumber);
+	int user_input;
+	printf("\nHow many pizzas do you want?:");
+	scanf("%d",&user_input);
+	if (user_input>1){
+		printf("\nCheck our multi-pizza deals!");
 	}
 	else{
-		printf("\n%d is not greater than %d",firstnumber,secondnumber);
+		printf("Your total is $8\n");
 	}
-	return 0;
+return 0;
+	
+	
 }
